@@ -1,0 +1,11 @@
+{
+  "name": "url-pinger",
+  "version": "1.0.0",
+  "description": "Chrome extension to send the current tab's URL to selected webhooks",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r manifest.json icons *.html styles js dist/",
+    "package": "cd dist && zip -r ../url-pinger.zip *"
+  },
+  "author": "",
+  "license": "MIT"
+}
