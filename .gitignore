@@ -1,1 +1,9 @@
 dist
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.code-workspace
+.vscode/
+node_modules/
